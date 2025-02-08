@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+body {
+   width: 900px;
+   margin: 20px auto;
+   font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+   font-size: 1.25em;
+   padding-bottom: 30px;
+}
+
+h1 {
+   font-size: 2.2em;
+   text-align: center;
+}
+
+p:first-of-type::first-letter {
+   font-size: 4em; 
+   line-height: 0.8em;
+   margin-right: 0.1em; 
+   padding-right: 0.1em;
+   padding-bottom: 0.2em; 
+   float: left;
+   clear: both; 
+}
